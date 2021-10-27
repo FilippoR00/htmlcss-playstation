@@ -34,11 +34,17 @@ html{
     background-image: url(../img/chevron-down-solid-hover.svg);
 }
 
+.nav-item a:hover{
+    color: #0070d1 !important;
+}
+
 .button_login:hover{
     background-color: rgb(87, 87, 87) !important;
 }
 
-
+.new_game > div > div{
+    border-radius: 20px;
+}
 
 
 
@@ -75,10 +81,19 @@ html{
 
 
 .debug .gadget{
-    background-color: tomato;
+    background-color: lightskyblue;
 }
 
 .debug .gadget > div > div{
+    background-color: lightpink;
+    border: 1px solid black;
+}
+
+.debug .new_game{
+    background-color: #191919;
+}
+
+.debug .new_game > div > div{
     background-color: lightpink;
     border: 1px solid black;
 }
