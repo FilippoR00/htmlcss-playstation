@@ -5,5 +5,38 @@
 }
 
 html{
-    font-family: 'Mada', Arial, Helvetica, sans-serif !important;
+    font-family: 'Varta', Arial, Helvetica, sans-serif !important;
+    font-size: 17px;
 }
+
+.navbar_drop{
+    font-weight: 600;
+}
+
+.nav-link::after{
+    content: "";
+    width: 13px;
+    height: 13px;
+    background-image: url(../img/chevron-down-solid.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 17px;
+}
+
+.nav-link:hover:after{
+    background-image: url(../img/chevron-down-solid-hover.svg);
+}
+
+.button_login:hover{
+    background-color: rgb(87, 87, 87) !important;
+}
+
+
+/* **** debug ****  */
+
+/* .debug .jumbo{
+    height: 100px;
+    background-color: tomato;
+} */
