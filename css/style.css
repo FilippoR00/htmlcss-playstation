@@ -34,9 +34,21 @@ html{
 }
 
 
+
+
+
 /* **** debug ****  */
 
-/* .debug .jumbo{
-    height: 100px;
+.debug .my_jumbo{
+    height: 690px;
     background-color: tomato;
-} */
+}
+
+.debug .my_card{
+    min-height: 200px;
+    background-color: lightgreen;
+}
+
+.debug .my_card div{
+    background-color: orange;
+}
