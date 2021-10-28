@@ -192,20 +192,30 @@ p{
     background-color: #bfbdbc;
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: right;
+    background-position-x: 700px;
     height: 450px;
 }
 
-.jumbo3 .jumbo_text{
+.jumbo3 .jumbo_text, .jumbo4 .jumbo_text{
+    width: 100vw;
     max-width: 750px;
 }
 
-.jumbo3 .jumbo_text img{
+.jumbo3 .jumbo_text img, .jumbo4 .jumbo_text img{
     width: 400px;
 }
 
-.jumbo3 .jumbo_text p{
+.jumbo3 .jumbo_text p, .jumbo4 .jumbo_text p{
     max-width: 750px;
+}
+
+.jumbo4{
+    background-image: url(../img/ps-now-april-featured-image-block.png);
+    background-color: #0e1638;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 800px;
+    height: 450px;
 }
 
 /* **** debug ****  */
