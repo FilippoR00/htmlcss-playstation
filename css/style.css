@@ -9,6 +9,19 @@ html{
     font-size: 17px;
 }
 
+h1{
+    font-weight: 600 !important;
+    font-size: 45px !important;
+}
+
+h5{
+    font-weight: 600 !important;
+}
+
+h6{
+    font-weight: 600 !important;
+}
+
 /* il padding rimosso è un fix per sistemare il container-fluid che con i gutter-y genera problemi con il background */
 .container-fluid{
     padding: 0px 0px !important;
@@ -58,8 +71,12 @@ html{
     background-position: center;
 }
 
-.my_jumbo img{
+.my_jumbo .jumbo_text img{
     width: 270px;
+}
+
+.my_jumbo .jumbo_text{
+    max-width: 540px;
 }
 
 .button_buy{
@@ -70,17 +87,8 @@ html{
     background-color: #d16e1c !important;
 }
 
-.my_jumbo h1{
-    font-weight: 600;
-    font-size: 45px;
-}
-
-.my_jumbo p{
-    width: 400px;
-}
-
 .my_card{
-    height: 200px;
+    min-height: 200px;
 }
 
 .my_card > div > div img{
@@ -102,6 +110,26 @@ html{
     bottom: 20px;
 }
 
+.gadget_obj{
+    height: 60px;
+}
+
+.gadget > div{
+    transition: 0.15s;
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.gadget > div:first-of-type{
+    border-bottom: 3px solid #288bd7;
+    opacity: 1;
+}
+
+.gadget > div:hover{
+    opacity: 1;
+    border-bottom: 3px solid #79a7ca;
+}
+
 .my_jumbo.jumbo2{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-repeat: no-repeat;
@@ -109,11 +137,25 @@ html{
     background-position: center;
 }
 
-.new_game > div > div{
+.new_game > div > div > div{
     border-radius: 20px;
 }
 
+.new_game{
+    background-color: #191919;
+}
 
+.debug .new_game > div > div > .card_tony{
+    background-image: url(../img/tony-hawks-pro-skater-1-2-store-art.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.debug .new_game > div > div > .card_crash{
+    background-image: url(../img/crash-bandicoot-4-its-about-time-store-art.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
 /* **** debug ****  */
 
@@ -131,36 +173,32 @@ html{
     border: 1px solid black;
 } */
 
-.debug .ps5{
+/* .debug .ps5{
     height: 300px;
     background-color: lightskyblue;
-}
+} */
 
-.debug .console{
+/* .debug .console{
     background-color: lightsalmon;
-}
+} */
 
-.debug .console div{
+/* .debug .console div{
     height: 700px;
     background-color: lightyellow;
     border: 1px solid black;
-}
+} */
 
-
-.debug .gadget{
+/* .debug .gadget{
     background-color: lightskyblue;
-}
+} */
 
-.debug .gadget > div > div{
+/* .debug .gadget > div > div{
     background-color: lightpink;
     border: 1px solid black;
-}
+} */
 
-.debug .new_game{
-    background-color: #191919;
-}
 
-.debug .new_game > div > div{
+.debug .new_game > div > div > div{
     background-color: lightpink;
     border: 1px solid black;
 }
