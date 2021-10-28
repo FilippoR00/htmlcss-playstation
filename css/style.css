@@ -28,10 +28,15 @@ html{
     position: absolute;
     right: 0px;
     top: 17px;
+    transition: 0.2s;
 }
 
 .nav-link:hover:after{
     background-image: url(../img/chevron-down-solid-hover.svg);
+}
+
+.nav-link:focus::after{
+    transform: rotate(180deg);
 }
 
 .nav-item a:hover{
@@ -74,13 +79,27 @@ html{
     width: 400px;
 }
 
-.debug .my_card > div > div img{
-    border-radius: 20px;
-    cursor: pointer;
+.my_card{
+    height: 200px;
 }
 
-.debug .my_card > div > div img:hover{
+.my_card > div > div img{
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.my_card > div > div{
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+    transition-timing-function: ease;
+    position: relative;
+    bottom: 0px;
+}
+
+.my_card > div > div:hover{
     border: 3px solid skyblue;
+    bottom: 20px;
 }
 
 .my_jumbo.jumbo2{
