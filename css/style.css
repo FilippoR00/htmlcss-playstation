@@ -22,6 +22,10 @@ h6{
     font-weight: 600 !important;
 }
 
+p{
+    font-weight: 600 !important;
+}
+
 /* il padding rimosso è un fix per sistemare il container-fluid che con i gutter-y genera problemi con il background */
 .container-fluid{
     padding: 0px 0px !important;
@@ -145,16 +149,63 @@ h6{
     background-color: #191919;
 }
 
-.debug .new_game > div > div > .card_tony{
+.new_game > div > div > .card_tony{
     background-image: url(../img/tony-hawks-pro-skater-1-2-store-art.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-.debug .new_game > div > div > .card_crash{
+.new_game > div > div > .card_crash{
     background-image: url(../img/crash-bandicoot-4-its-about-time-store-art.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.ps4_gadget > div > div{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ps4_gadget > div > h1{
+    height: 100px;
+}
+
+.ps4_gadget > div > h5{
+    height: 80px;
+}
+
+.ps4_console{
+    background-image: url(../img/ps4-slim-homepage-image-block.jpg);
+}
+
+.ps4_vr{
+    background-image: url(../img/double11-202010-tw-psvr.jpg);
+}
+
+.ps4_gamepad{
+    background-image: url(../img/dualshock-4-listing-thumb.jpg);
+}
+
+.jumbo3{
+    background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+    background-color: #bfbdbc;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    height: 450px;
+}
+
+.jumbo3 .jumbo_text{
+    max-width: 750px;
+}
+
+.jumbo3 .jumbo_text img{
+    width: 400px;
+}
+
+.jumbo3 .jumbo_text p{
+    max-width: 750px;
 }
 
 /* **** debug ****  */
@@ -197,8 +248,16 @@ h6{
     border: 1px solid black;
 } */
 
-
-.debug .new_game > div > div > div{
+/* .debug .new_game > div > div > div{
     background-color: lightpink;
     border: 1px solid black;
-}
+} */
+
+/* .debug .ps4{
+    height: 800px;
+    background-color: tomato;
+} */
+
+/* .debug .ps4_gadget div{
+    background-color: lightblue;
+} */
