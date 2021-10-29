@@ -17,7 +17,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <!-- navbar  -->
+    <!-- navbar top -->
     <div class="container-fluid p-0 overflow-hidden">
         <div class="nav_top d-flex justify-content-end bg-dark">
             <div class="row d-flex justify-content-end pe-4 py-2">
@@ -25,7 +25,8 @@
             </div>
         </div>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <!-- navbar bottom  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top position-relative">
         <div class="container-fluid ms-2">
             <a class="navbar-brand" href="#">
                 <img src="img/play_logo.svg" alt="Playstation logo"width="50" height="50">
@@ -37,28 +38,202 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav navbar_drop fs-6 d-flex justify-content-between w-100">
                     <div class="d-lg-flex">
-                        <li class="nav-item px-2 position-relative">
-                            <a class="nav-link active" aria-current="page"href="#">Giochi</a>
+                        <li class="nav-item px-2 position-relative dropdown">
+                            <a class="nav-link dropdown-toggle-split active" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Giochi</a>
+                            <div id="menu_n1" class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col-xl-1 col-md-2 col-3 d-flex flex-column align-items-center me-4 mt-2">
+                                        <img src="img/play-menu-ico.png" alt="play menu image" width="90px">
+                                        <h5>PS1</h5>
+                                    </div>
+                                    <div class="col-xl-1 col-md-2 col-3 d-flex flex-column align-items-center me-4 mt-2">
+                                        <img src="img/play-menu-ico.png" alt="play menu image" width="90px">
+                                        <h5>PS1</h5>
+                                    </div>
+                                    <div class="col-xl-1 col-md-2 col-3 d-flex flex-column align-items-center me-4 mt-2">
+                                        <img src="img/play-menu-ico.png" alt="play menu image" width="90px">
+                                        <h5>PS1</h5>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <ul class="d-flex justify-content-center">
+                                        <li class="pe-4">sub link supporto</li>
+                                        <li class="pe-4">sub link</li>
+                                        <li class="pe-4">sub link</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </li>
-                        <li class="nav-item px-2 position-relative">
-                            <a class="nav-link active" aria-current="page"href="#">Hardware</a>
+                        <li class="nav-item px-2 position-relative dropdown">
+                            <a class="nav-link dropdown-toggle-split active" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Hardware</a>
+                            <div id="menu_n2" class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col-xl-1 col-md-2 col-3 d-flex flex-column align-items-center me-4 mt-2">
+                                        <img src="img/play-menu-ico.png" alt="play menu image" width="90px">
+                                        <h5>PS2</h5>
+                                    </div>
+                                    <div class="col-xl-1 col-md-2 col-3 d-flex flex-column align-items-center me-4 mt-2">
+                                        <img src="img/play-menu-ico.png" alt="play menu image" width="90px">
+                                        <h5>PS2</h5>
+                                    </div>
+                                    <div class="col-xl-1 col-md-2 col-3 d-flex flex-column align-items-center me-4 mt-2">
+                                        <img src="img/play-menu-ico.png" alt="play menu image" width="90px">
+                                        <h5>PS2</h5>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <ul class="d-flex justify-content-center">
+                                        <li class="pe-4">sub link supporto</li>
+                                        <li class="pe-4">sub link</li>
+                                        <li class="pe-4">sub link</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </li>
-                        <li class="nav-item px-2 position-relative">
-                            <a class="nav-link active" aria-current="page"href="#">Servizi</a>
+                        <li class="nav-item px-2 position-relative dropdown">
+                            <a class="nav-link dropdown-toggle-split active" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Servizi</a>
+                            <div id="menu_n3" class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col-xl-1 col-md-2 col-3 d-flex flex-column align-items-center me-4 mt-2">
+                                        <img src="img/play-menu-ico.png" alt="play menu image" width="90px">
+                                        <h5>PS3</h5>
+                                    </div>
+                                    <div class="col-xl-1 col-md-2 col-3 d-flex flex-column align-items-center me-4 mt-2">
+                                        <img src="img/play-menu-ico.png" alt="play menu image" width="90px">
+                                        <h5>PS3</h5>
+                                    </div>
+                                    <div class="col-xl-1 col-md-2 col-3 d-flex flex-column align-items-center me-4 mt-2">
+                                        <img src="img/play-menu-ico.png" alt="play menu image" width="90px">
+                                        <h5>PS3</h5>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <ul class="d-flex justify-content-center">
+                                        <li class="pe-4">sub link supporto</li>
+                                        <li class="pe-4">sub link</li>
+                                        <li class="pe-4">sub link</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </li>
-                        <li class="nav-item px-2 position-relative">
-                            <a class="nav-link active" aria-current="page"href="#">Novità</a>
+                        <li class="nav-item px-2 position-relative dropdown">
+                            <a class="nav-link dropdown-toggle-split active" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Novità</a>
+                            <div id="menu_n4" class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col-xl-1 col-md-2 col-3 d-flex flex-column align-items-center me-4 mt-2">
+                                        <img src="img/play-menu-ico.png" alt="play menu image" width="90px">
+                                        <h5>PS4</h5>
+                                    </div>
+                                    <div class="col-xl-1 col-md-2 col-3 d-flex flex-column align-items-center me-4 mt-2">
+                                        <img src="img/play-menu-ico.png" alt="play menu image" width="90px">
+                                        <h5>PS4</h5>
+                                    </div>
+                                    <div class="col-xl-1 col-md-2 col-3 d-flex flex-column align-items-center me-4 mt-2">
+                                        <img src="img/play-menu-ico.png" alt="play menu image" width="90px">
+                                        <h5>PS4</h5>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <ul class="d-flex justify-content-center">
+                                        <li class="pe-4">sub link supporto</li>
+                                        <li class="pe-4">sub link</li>
+                                        <li class="pe-4">sub link</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </li>
-                        <li class="nav-item px-2 position-relative">
-                            <a class="nav-link active" aria-current="page"href="#">Fai acquisti</a>
+                        <li class="nav-item px-2 position-relative dropdown">
+                            <a class="nav-link dropdown-toggle-split active" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Fai acquisti</a>
+                            <div id="menu_n5" class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col-xl-1 col-md-2 col-3 d-flex flex-column align-items-center me-4 mt-2">
+                                        <img src="img/play-menu-ico.png" alt="play menu image" width="90px">
+                                        <h5>PS5</h5>
+                                    </div>
+                                    <div class="col-xl-1 col-md-2 col-3 d-flex flex-column align-items-center me-4 mt-2">
+                                        <img src="img/play-menu-ico.png" alt="play menu image" width="90px">
+                                        <h5>PS5</h5>
+                                    </div>
+                                    <div class="col-xl-1 col-md-2 col-3 d-flex flex-column align-items-center me-4 mt-2">
+                                        <img src="img/play-menu-ico.png" alt="play menu image" width="90px">
+                                        <h5>PS5</h5>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <ul class="d-flex justify-content-center">
+                                        <li class="pe-4">sub link supporto</li>
+                                        <li class="pe-4">sub link</li>
+                                        <li class="pe-4">sub link</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </li>
-                        <li class="nav-item px-2 position-relative">
-                            <a class="nav-link active" aria-current="page"href="#">Supporto</a>
+                        <li class="nav-item px-2 position-relative dropdown">
+                            <a class="nav-link dropdown-toggle-split active" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Supporto</a>
+                            <div id="menu_n6" class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col-xl-1 col-md-2 col-3 d-flex flex-column align-items-center me-4 mt-2">
+                                        <img src="img/play-menu-ico.png" alt="play menu image" width="90px">
+                                        <h5>PS6</h5>
+                                    </div>
+                                    <div class="col-xl-1 col-md-2 col-3 d-flex flex-column align-items-center me-4 mt-2">
+                                        <img src="img/play-menu-ico.png" alt="play menu image" width="90px">
+                                        <h5>PS6</h5>
+                                    </div>
+                                    <div class="col-xl-1 col-md-2 col-3 d-flex flex-column align-items-center me-4 mt-2">
+                                        <img src="img/play-menu-ico.png" alt="play menu image" width="90px">
+                                        <h5>PS6</h5>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <ul class="d-flex justify-content-center">
+                                        <li class="pe-4">sub link supporto</li>
+                                        <li class="pe-4">sub link</li>
+                                        <li class="pe-4">sub link</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </li>
                     </div>
                     <div class="d-lg-flex">
-                        <li class="nav-item px-2 position-relative me-3">
-                            <a class="nav-link active" aria-current="page"href="#">My PlayStation</a>
+                        <li class="nav-item px-2 position-relative dropdown me-3">
+                            <a class="nav-link dropdown-toggle-split active" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">My PlayStation</a>
+                            <div id="menu_n7" class="dropdown-menu " aria-labelledby="navbarDarkDropdownMenuLink">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col-xl-1 col-md-2 col-3 d-flex flex-column align-items-center me-4 mt-2">
+                                        <img src="img/play-menu-ico.png" alt="play menu image" width="90px">
+                                        <h5>PS7</h5>
+                                    </div>
+                                    <div class="col-xl-1 col-md-2 col-3 d-flex flex-column align-items-center me-4 mt-2">
+                                        <img src="img/play-menu-ico.png" alt="play menu image" width="90px">
+                                        <h5>PS7</h5>
+                                    </div>
+                                    <div class="col-xl-1 col-md-2 col-3 d-flex flex-column align-items-center me-4 mt-2">
+                                        <img src="img/play-menu-ico.png" alt="play menu image" width="90px">
+                                        <h5>PS7</h5>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <ul class="d-flex justify-content-center">
+                                        <li class="pe-4">sub link supporto</li>
+                                        <li class="pe-4">sub link</li>
+                                        <li class="pe-4">sub link</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </li>
                         <li class="me-3">
                             <button type="button" class="btn btn-dark rounded-pill border-2 border-dark button_login">Accedi</button>

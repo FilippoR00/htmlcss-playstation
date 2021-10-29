@@ -2,11 +2,13 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
+    transition: 0.2s !important;
 }
 
 html{
     font-family: 'Varta', Arial, Helvetica, sans-serif !important;
     font-size: 17px;
+    overflow-x: hidden;
 }
 
 h1{
@@ -67,6 +69,64 @@ p{
 
 .button_login:hover{
     background-color: rgb(87, 87, 87) !important;
+}
+
+.dropdown-menu{
+    position: absolute;
+    border-bottom-right-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    height: 240px;
+    width: 100vw;
+}
+
+.dropdown-menu > div > div{
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.dropdown-menu > div > div:hover{
+    box-shadow: 0px 0px 26px -11px rgba(0,0,0,1);
+}
+
+.dropdown-menu li{
+    cursor: pointer;
+}
+
+#menu_n1{
+    left: -76px;
+    top: 57px;
+}
+
+#menu_n2{
+    left: -158px;
+    top: 57px;
+}
+
+#menu_n3{
+    left: -267px;
+    top: 57px;
+}
+
+#menu_n4{
+    left: -352px;
+    top: 57px;
+}
+
+#menu_n5{
+    left: -437px;
+    top: 57px;
+}
+
+#menu_n6{
+    left: -556px;
+    top: 57px;
+}
+
+#menu_n7{
+    left: calc(-100vw + 304px);
+    top: 57px;
 }
 
 /* jumbo 1 */
