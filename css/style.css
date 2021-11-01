@@ -49,14 +49,14 @@ p{
     background-image: url(../img/chevron-down-solid.svg);
     background-repeat: no-repeat;
     display: inline-block;
-    position: absolute;
-    right: 0px;
-    top: 17px;
+    position: relative;
+    left: 5px;
+    top: 2px;
     transition: 0.2s;
 }
 
 .nav-link:hover:after{
-    background-image: url(../img/chevron-down-solid-hover.svg);
+    background-image: url(../img/chevron-down-solid-hover.svg) !important;
 }
 
 .nav-link:focus::after{
@@ -71,6 +71,14 @@ p{
     background-color: rgb(87, 87, 87) !important;
 }
 
+.dropdown{
+    position: static !important;
+}
+
+.navbar_lenght{
+    min-width: 1070px;
+}
+
 .dropdown-menu{
     position: absolute;
     border-bottom-right-radius: 10px !important;
@@ -79,6 +87,7 @@ p{
     border-top-left-radius: 0px !important;
     height: 240px;
     width: 100vw;
+    top: 75px !important;
 }
 
 .dropdown-menu > div > div{
@@ -92,41 +101,6 @@ p{
 
 .dropdown-menu li{
     cursor: pointer;
-}
-
-#menu_n1{
-    left: -76px;
-    top: 57px;
-}
-
-#menu_n2{
-    left: -158px;
-    top: 57px;
-}
-
-#menu_n3{
-    left: -267px;
-    top: 57px;
-}
-
-#menu_n4{
-    left: -352px;
-    top: 57px;
-}
-
-#menu_n5{
-    left: -437px;
-    top: 57px;
-}
-
-#menu_n6{
-    left: -556px;
-    top: 57px;
-}
-
-#menu_n7{
-    left: calc(-100vw + 304px);
-    top: 57px;
 }
 
 /* jumbo 1 */
